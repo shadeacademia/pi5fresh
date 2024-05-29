@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt -o Apt::Get::Assume-Yes=true remove libreoffice* thunderbird && sudo apt -o Apt::Get::Assume-Yes=true autoremove
+sudo apt -o Apt::Get::Assume-Yes=true remove libreoffice* thunderbird transmission-gtk && sudo apt -o Apt::Get::Assume-Yes=true autoremove
 
 sudo apt update && sudo apt -o Apt::Get::Assume-Yes=true dist-upgrade
 
