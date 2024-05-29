@@ -14,9 +14,9 @@ git clone https://github.com/libretro/FBNeo
 
 cd ~/FBNeo
 
-make j3 -C src/burner/libretro generate-files
+make -j3 -C src/burner/libretro generate-files
 
-make j3 -C src/burner/libretro
+make -j3 -C src/burner/libretro
 
 cd ~/FBNeo/src/burner/libretro
 
