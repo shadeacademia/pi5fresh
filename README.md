@@ -1,8 +1,6 @@
 # pi5fresh
 Personal Pi 5 setup script cause I'm lazy and don't want to visit every bookmark after a fresh install.
 
-**!! Will remove LibreOffice and Transmission if they are installed.**
-
 Works with Ubuntu & PiOS.
 Depending on OS version, not adding OBS and Retroarch repos means you may not get the latest versions of those two apps.
 
