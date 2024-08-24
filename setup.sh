@@ -18,8 +18,6 @@ make -j3 -C src/burner/libretro
 
 cd ~/FBNeo/src/burner/libretro
 
-wget https://archive.org/download/fbnarcade-fullnonmerged/arcade/sfa3.zip
-
-wget https://archive.org/download/fbnarcade-fullnonmerged/arcade/vsav.zip
+wget https://archive.org/download/fbnarcade-fullnonmerged/arcade/sfz3a.zip
 
 cd ~
