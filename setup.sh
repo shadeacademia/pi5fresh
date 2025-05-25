@@ -16,8 +16,4 @@ make -j3 -C src/burner/libretro generate-files
 
 make -j3 -C src/burner/libretro
 
-cd ~/FBNeo/src/burner/libretro
-
-wget https://archive.org/download/fbnarcade-fullnonmerged/arcade/sfz3a.zip
-
 cd ~
