@@ -10,7 +10,7 @@ To execute from terminal use:
 wget -qO- https://raw.githubusercontent.com/shadeacademia/pi5fresh/refs/heads/main/setup.sh | bash
  ```
 
-* Performance tweaks(force PCIe Gen 3 + 20% CPU/GPU overclock):
+* Performance tweaks**DO NOT DO THIS IF YOU ARE USING THE AI HAT**(force PCIe Gen 3 + 20% CPU/GPU overclock):
   ```
   echo -e "dtparam=pciex1_gen=3\narm_freq=2880\ngpu_freq=960" | sudo tee -a /boot/firmware/config.txt > /dev/null
   ```
